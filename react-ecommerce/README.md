@@ -27,34 +27,6 @@ react-ecommerce/
 └── README.md
 ```
 
-## 🚀 Como Executar
-
-### 1. Instalar Dependências
-
-```bash
-npm install
-```
-
-### 2. Instalar Tailwind CSS
-
-```bash
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-### 3. Executar o Projeto
-
-```bash
-npm start
-```
-
-A aplicação estará disponível em `http://localhost:3000`
-
-### 4. Build para Produção
-
-```bash
-npm run build
-```
 
 ## 📦 Dependências Principais
 
@@ -172,17 +144,7 @@ O arquivo `src/data/products.js` contém um array com 8 produtos de exemplo:
 - Tablet: 2-3 colunas
 - Desktop: 3-4 colunas
 
-## 🔧 Configuração Adicional
 
-### ESLint (opcional)
-```bash
-npm install -D eslint eslint-plugin-react
-```
-
-### Prettier (opcional)
-```bash
-npm install -D prettier
-```
 
 ## 🌐 Rotas da Aplicação
 
@@ -216,31 +178,5 @@ npm install -D prettier
 ✅ Responsividade  
 ✅ Acessibilidade básica  
 
-## 🐛 Troubleshooting
 
-### Erro de módulo não encontrado
-```bash
-npm install
-npm start
-```
 
-### Tailwind não está funcionando
-Verifique se o `tailwind.config.js` está configurado corretamente e se o `index.css` importa as diretivas do Tailwind.
-
-### Rotas não funcionam no build
-Configure o servidor para redirecionar todas as rotas para `index.html` (SPA behavior).
-
-## 📞 Suporte
-
-Para dúvidas ou problemas:
-- Verifique a documentação oficial do React
-- Consulte a documentação do Tailwind CSS
-- Revise os componentes e suas props
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais.
-
----
-
-**Desenvolvido com React ⚛️ + Tailwind CSS 🎨**
