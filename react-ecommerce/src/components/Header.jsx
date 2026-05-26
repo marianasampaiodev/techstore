@@ -13,6 +13,7 @@ function Header() {
           <nav className="hidden md:flex space-x-6">
             <Link to="/" className="hover:text-blue-200 transition">Home</Link>
             <Link to="/produtos" className="hover:text-blue-200 transition">Produtos</Link>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="hover:text-blue-200 transition">Contato</a>
           </nav>
           <div className="flex items-center space-x-4">
