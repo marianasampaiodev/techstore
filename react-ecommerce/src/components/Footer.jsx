@@ -15,7 +15,7 @@ function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li><Link to="/" className="hover:text-white transition">Home</Link></li>
               <li><Link to="/produtos" className="hover:text-white transition">Produtos</Link></li>
-              <button onClick={handleClick} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>Sobre</button>
+              <button style={{ background: 'none', border: 'none', cursor: 'pointer' }}>Sobre</button>
             </ul>
           </div>
           <div>

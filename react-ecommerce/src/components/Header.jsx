@@ -13,7 +13,7 @@ function Header() {
           <nav className="hidden md:flex space-x-6">
             <Link to="/" className="hover:text-blue-200 transition">Home</Link>
             <Link to="/produtos" className="hover:text-blue-200 transition">Produtos</Link>
-            <button onClick={handleClick} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>Sobre</button>
+            <button style={{ background: 'none', border: 'none', cursor: 'pointer' }}>Sobre</button>
 
           </nav>
           <div className="flex items-center space-x-4">
