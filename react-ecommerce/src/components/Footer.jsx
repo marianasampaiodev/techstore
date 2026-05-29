@@ -25,6 +25,7 @@ function Footer() {
               {/*Link para Home, Produtos e Sobre */}
               <li><Link to="/" className="hover:text-white transition">Home</Link></li>
               <li><Link to="/produtos" className="hover:text-white transition">Produtos</Link></li>
+              <li><Link to="/meus-pedidos" className="hover:text-white transition">Meus Pedidos</Link></li>
             </ul>
           </div>
           {/*Coluna 3: Informações de Contato com ícones front */}
