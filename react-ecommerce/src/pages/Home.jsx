@@ -8,13 +8,18 @@ function Home() {
 
   return (
     <div>
-      {/* Hero Section */}
+      {/*barra superior com gradiente*/}
       <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+
+        {/*Div do container de apresentação da loja  */}
         <div className="container mx-auto px-4 text-center">
+            {/*H1 do container */}
           <h1 className="text-5xl font-bold mb-6">Bem-vindo à TechStore</h1>
+            {/*Parágrafo de descrição da loja */}
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Os melhores produtos de tecnologia com preços incríveis e entrega rápida
           </p>
+          {/*Botão de ver produtos/Direcionamento */}
           <button 
             onClick={() => navigate('/produtos')}
             className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition transform hover:scale-105"
@@ -24,7 +29,8 @@ function Home() {
         </div>
       </section>
 
-      {/* Features */}
+
+      {/* Seção de funcionalidades */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -32,6 +38,7 @@ function Home() {
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <i className="fas fa-shipping-fast text-blue-600 text-2xl"></i>
               </div>
+              {/*Descrição da funcionalidade */}
               <h3 className="text-xl font-semibold mb-2">Entrega Rápida</h3>
               <p className="text-gray-600">Receba seus produtos em até 48h</p>
             </div>
@@ -53,7 +60,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Featured Products */}
+      {/* Featured Products */} {/*seção de produto em destaque*/}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Produtos em Destaque</h2>
